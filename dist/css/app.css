@@ -21,6 +21,10 @@
  *  Gray and brand colors for use across Bootstrap.
  */
 /**
+ *  Scaffolding
+ *  Settings for some of the most global styles.
+ */
+/**
  *  Typography
  *  Font, line-height, and color for body text, headings, and more.
  */
@@ -85,6 +89,9 @@ a.btn.disabled,
 fieldset[disabled] a.btn {
   pointer-events: none;
 }
+/**
+ * Alternate buttons.
+ */
 .btn-default {
   color: #333;
   background-color: #fff;
@@ -429,6 +436,65 @@ fieldset[disabled] .btn-danger.focus {
 }
 .btn-danger.waves-effect .waves-ripple {
   background: rgba(255, 255, 255, 0.8);
+}
+/**
+ * Link buttons.
+ * Make a button look and behave like a link.
+ */
+.btn-link {
+  color: #4285F4;
+  font-weight: normal;
+  border-radius: 0;
+}
+.btn-link,
+.btn-link:active,
+.btn-link.active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+  background-color: transparent;
+  box-shadow: none;
+}
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  border-color: transparent;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #0d5bdd;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #777777;
+  text-decoration: none;
+}
+/**
+ * Fab buttons.
+ */
+.btn-fab {
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.btn-fab i {
+  line-height: 35.5px;
+  display: inline-block;
+  text-align: center;
+}
+.btn-fab.btn-lg {
+  padding: 12px 16px;
+  border-radius: 50%;
+}
+.btn-fab.btn-sm {
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+.btn-fab.btn-sm i {
+  line-height: initial;
 }
 /**
  *  Helpers.
