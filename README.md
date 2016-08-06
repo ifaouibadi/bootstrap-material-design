@@ -1,2 +1,5 @@
-# vue-material-design
-Materilal Design Components For Vuejs
+# Bootstrap Material Design 
+
+## Supporting Vue.js, jQuery
+
+Bootstrap Material Design  an MIT-licensed open source project. Its ongoing development ..
