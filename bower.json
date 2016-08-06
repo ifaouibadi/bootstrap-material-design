@@ -1,0 +1,22 @@
+{
+  "name": "zix-material-design",
+  "homepage": "",
+  "authors": [
+    "badi ifaoui <badi@contact.tn>"
+  ],
+  "description": "Material Design for Bootstrap 3",
+
+  "keywords": [
+    "material",
+    "design",
+    "bootstrap",
+    "theme",
+    "google",
+    "android",
+    "jquery",
+    "vuejs"
+  ],
+  "dependencies": {
+      "Waves": "waves#~0.7.5"
+  }
+}
