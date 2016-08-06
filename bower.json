@@ -17,6 +17,7 @@
     "vuejs"
   ],
   "dependencies": {
+      "jquery": "~3.1.0",
       "Waves": "waves#~0.7.5"
   }
 }
