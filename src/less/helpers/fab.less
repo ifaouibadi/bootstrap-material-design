@@ -1,0 +1,23 @@
+// Fab Buttons (shared between buttons.scss and fab*.scss)
+// -------------------------------------------
+@button-fab-width: rem(5.600) ;
+@button-fab-height: rem(5.600) ;
+@button-fab-position: 15px ;
+
+// Position a FAB button.
+.fab-position(@spot, @top: auto, @right: auto, @bottom: auto, @left: auto) {
+    .fab-@{spot} {
+        top: @top;
+        right: @right;
+        bottom:@bottom;
+        left: @left;
+        position: absolute;
+    }
+}
+
+.fab-all-positions() {
+    .fab-position(bottom-right, auto, @button-fab-position, @button-fab-position, auto);
+    .fab-position(bottom-left, auto, auto, @button-fab-position, @button-fab-position);
+    .fab-position(top-right, @button-fab-position, @button-fab-position, auto, auto);
+    .fab-position(top-left, @button-fab-position, auto, auto, @button-fab-position);
+}
