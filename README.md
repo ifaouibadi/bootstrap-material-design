@@ -1,5 +1,5 @@
-# Vue Material Design 
+# Bootstrap Material Design 
 
-## Supporting Vue.js 2
+## Supporting (jQuery)
 
-Vue Material Design  an MIT-licensed open source project. Its under development ..
+Bootstrap Material Design  an MIT-licensed open source project. Its under development ..
